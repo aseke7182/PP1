@@ -3,20 +3,12 @@ using namespace std;
 
 int main(){
 	
-	int n,x,k=0;
+	int n;
 	cin>>n;
-	int a[n];
-	for(int i=0;i<n;i++){
-	   cin>>a[i];
+	int x;
+	for(int i=0 ; i < n ; i++){
+		cin>>x;		
+		if(x%2==1) cout<<x<< " ";
 	}
-	   cin>>x;
-	for(int i=0;i<n;i++){
-	    if(a[i]==x){
-		k++;
-	    }
-	}
-	cout<<k<<endl;
-		
-
 	return 0;
 }
