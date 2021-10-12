@@ -6,8 +6,8 @@ int main(){
 
 	int n,k;
 	cin>>n>>k;
-
-	n = n * 2;
+	
+	n *= 2;
 	int ans = 0;
 	if(n<=k){
 		ans = 2;
