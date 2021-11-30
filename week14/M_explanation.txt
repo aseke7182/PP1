@@ -1,0 +1,10 @@
+5 4
+5 5 4 3 2 unique() => 5 4 3 2
+4 5 4 3   unique() => 4 5 4 3
+
+merge() =>   5 4 4 5 3 4 2 3 
+unique() =>  5 4   5 3 4 2 3
+
+
+how to merge? _ v1.first -> v2.first -> v1.second -> v2.second -> .... -> v1.last -> v2.last
+how to unique? _ two consequent same int, delete one of them
